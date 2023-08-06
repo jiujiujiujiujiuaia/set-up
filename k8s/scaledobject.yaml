@@ -1,0 +1,50 @@
+apiVersion: keda.sh/v1alpha1
+kind: TriggerAuthentication
+metadata:
+  name: trigger-auth-kedaloganalytics
+  namespace: example
+spec:
+  podIdentity:
+    provider: azure
+---
+apiVersion: keda.sh/v1alpha1
+kind: ScaledObject
+metadata:
+  name: kedaloganalytics-scaled-object
+  namespace: example
+  labels:
+    deploymentName: hpa-example
+spec:
+  fallback:                                          # Optional. Section to specify fallback options
+    failureThreshold: 3                              # Mandatory if fallback section is included
+    replicas: 30    
+  scaleTargetRef:
+    kind: Deployment
+    name: hpa-example
+  pollingInterval: 10
+  minReplicaCount: 10
+  maxReplicaCount: 20
+  advanced:                                                 # Optional. Section to specify advanced options
+    horizontalPodAutoscalerConfig:                          # Optional. Section to specify HPA related options
+      behavior:                                             # Optional. Use to modify HPA's scaling behavior
+        scaleDown:
+          stabilizationWindowSeconds: 10
+        scaleUp:
+          stabilizationWindowSeconds: 10
+  triggers:
+  - type: azure-log-analytics
+    metadata:
+      workspaceId: ""
+      query: |
+            AutoScalingForTestingKeda_CL
+            |top 1 by TimeGenerated desc
+            | project AutoScalerMetric_d_d
+    #   threshold: "100"
+    # authenticationRef:
+    #   name: trigger-auth-kedaloganalytics
+    # metricType: Value
+      threshold: "1"
+    authenticationRef:
+      name: trigger-auth-kedaloganalytics
+    metricType: AverageValue
+
