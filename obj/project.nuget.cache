@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "unZPE+jD40y2EWIsB70Nh56+wBpnPSeT4q5hh61YFbT4X3NUvax79Ex0OjNBzz0U544X1Vt1dyxokX6yYY1SfQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\A\\Desktop\\workspace\\SendMetricToLA\\SendMetricToLA.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\A\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

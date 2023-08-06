@@ -1,0 +1,17 @@
+C:\Users\A\Desktop\workspace\SendMetricToLA\bin\Debug\net6.0\SendMetricToLA.exe
+C:\Users\A\Desktop\workspace\SendMetricToLA\bin\Debug\net6.0\SendMetricToLA.deps.json
+C:\Users\A\Desktop\workspace\SendMetricToLA\bin\Debug\net6.0\SendMetricToLA.runtimeconfig.json
+C:\Users\A\Desktop\workspace\SendMetricToLA\bin\Debug\net6.0\SendMetricToLA.dll
+C:\Users\A\Desktop\workspace\SendMetricToLA\bin\Debug\net6.0\SendMetricToLA.pdb
+C:\Users\A\Desktop\workspace\SendMetricToLA\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\A\Desktop\workspace\SendMetricToLA\obj\Debug\net6.0\SendMetricToLA.csproj.AssemblyReference.cache
+C:\Users\A\Desktop\workspace\SendMetricToLA\obj\Debug\net6.0\SendMetricToLA.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\A\Desktop\workspace\SendMetricToLA\obj\Debug\net6.0\SendMetricToLA.AssemblyInfoInputs.cache
+C:\Users\A\Desktop\workspace\SendMetricToLA\obj\Debug\net6.0\SendMetricToLA.AssemblyInfo.cs
+C:\Users\A\Desktop\workspace\SendMetricToLA\obj\Debug\net6.0\SendMetricToLA.csproj.CoreCompileInputs.cache
+C:\Users\A\Desktop\workspace\SendMetricToLA\obj\Debug\net6.0\SendMetricToLA.csproj.CopyComplete
+C:\Users\A\Desktop\workspace\SendMetricToLA\obj\Debug\net6.0\SendMetricToLA.dll
+C:\Users\A\Desktop\workspace\SendMetricToLA\obj\Debug\net6.0\refint\SendMetricToLA.dll
+C:\Users\A\Desktop\workspace\SendMetricToLA\obj\Debug\net6.0\SendMetricToLA.pdb
+C:\Users\A\Desktop\workspace\SendMetricToLA\obj\Debug\net6.0\SendMetricToLA.genruntimeconfig.cache
+C:\Users\A\Desktop\workspace\SendMetricToLA\obj\Debug\net6.0\ref\SendMetricToLA.dll
