@@ -15,7 +15,7 @@ namespace SendMetricToLA
         static string customerId = "";
 
         // For sharedKey, use either the primary or the secondary Connected Sources client authentication key   
-        static string sharedKey = ";
+        static string sharedKey = "";
 
         // LogName is name of the event type that is being submitted to Azure Monitor
         static string LogName = "AutoScalingForTestingKeda";
